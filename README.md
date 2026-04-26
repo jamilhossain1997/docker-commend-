@@ -14,3 +14,7 @@
 -------------------------Network-------------------------
 # 1.docker network ls
 # 2.docker network create mongo-network
+
+----------------------Monogo DB connect and how set password in docker container  ------------------
+# 1.docker run -p 27017:27017 -d -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo
+
