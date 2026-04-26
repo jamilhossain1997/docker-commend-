@@ -26,3 +26,6 @@
 --name mongo-express \
 mongo-express
 
+--------------------------Docker Logs view ---------------------------------------
+1.docker logs 2877fb5545af501262f85c01a79b3c912cdc6eed1ebb037735cfd9bd6745ab22
+
