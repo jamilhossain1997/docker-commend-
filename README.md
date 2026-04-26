@@ -13,3 +13,4 @@
 
 -------------------------Network-------------------------
 # 1.docker network ls
+# 2.docker network create mongo-network
