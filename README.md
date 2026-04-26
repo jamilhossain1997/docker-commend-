@@ -27,5 +27,7 @@
 mongo-express
 
 --------------------------Docker Logs view ---------------------------------------
-1.docker logs 2877fb5545af501262f85c01a79b3c912cdc6eed1ebb037735cfd9bd6745ab22
+# 1.docker logs 2877fb5545af501262f85c01a79b3c912cdc6eed1ebb037735cfd9bd6745ab22(container backend logs id )
+# 2.docker logs 2b7a8f7032ce(container id) | tail
+
 
