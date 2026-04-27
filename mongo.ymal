@@ -1,1 +1,10 @@
-
+Version : '3'
+Service :
+   mongodb:
+     image:mongo
+      port:
+        -27017:27017
+      enviroment:
+        -MONGO_INITDB_ROOT_USERNAME:admin
+        -MONGO_INITDB_ROOT_PASSWORD:password
+        
