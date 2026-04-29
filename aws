@@ -13,5 +13,10 @@ Default output format:  → json
     "Arn": "arn:aws:iam::637423569811:user/your-username"
 }
 
+Step 3: Now Login to ECR (Git Bash)
+bashaws ecr get-login-password --region us-east-1 | \
+docker login --username AWS --password-stdin \
+637423569811.dkr.ecr.us-east-1.amazonaws.com
+
 
 ``````````````
