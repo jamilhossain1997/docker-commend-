@@ -5,4 +5,13 @@ AWS Secret Access Key:  → paste your Secret Key
 Default region name:    → us-east-1
 Default output format:  → json  
 
+3.aws sts get-caller-identity(view )
+
+{
+    "UserId": "AIDXXXXXXXXXXXXXXX",
+    "Account": "637423569811",
+    "Arn": "arn:aws:iam::637423569811:user/your-username"
+}
+
+
 ``````````````
