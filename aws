@@ -1,0 +1,8 @@
+`````````````base `````````````````
+1.aws configure
+2.AWS Access Key ID:      → paste your Access Key
+AWS Secret Access Key:  → paste your Secret Key
+Default region name:    → us-east-1
+Default output format:  → json  
+
+``````````````
