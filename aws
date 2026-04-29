@@ -19,4 +19,8 @@ docker login --username AWS --password-stdin \
 637423569811.dkr.ecr.us-east-1.amazonaws.com
 
 
+step: docker tag node-js-my-app:latest(make you docker images ways ) 637423569811.dkr.ecr.us-east-1.amazonaws.com/node-js-my-app:latest
+$ docker push 637423569811.dkr.ecr.us-east-1.amazonaws.com/node-js-my-app:latest
+
+
 ``````````````
