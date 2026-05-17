@@ -31,3 +31,6 @@ mongo-express
 # 2.docker logs 2b7a8f7032ce(container id) | tail
 
 
+--------------Docker images view -------------------
+# 1. docker images 
+
